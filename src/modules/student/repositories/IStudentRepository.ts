@@ -7,7 +7,7 @@ interface IStudentRepository {
   winRewards(user_id: string): Promise<void>;
   exchangeCoinsForCriptocurrency(): Promise<void>;
   findById(user_id: string): Promise<Student>;
-  subscribeToARealProject(user_id): Promise<void>;
+  subscribeToARealProject(user_id: string): Promise<void>;
 }
 
 export { IStudentRepository };

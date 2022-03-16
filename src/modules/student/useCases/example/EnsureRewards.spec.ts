@@ -66,7 +66,8 @@ describe("Ensure rewards", () => {
       id: '1',
       isPremium: true,
       mean: 7,
-      name: 'Test user'
+      name: 'Test user',
+      realProjects: [],
     };
 
     await studentRepositoryInMemory.create(userData);
